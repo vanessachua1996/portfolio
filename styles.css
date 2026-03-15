@@ -33,17 +33,7 @@ h1 {
     box-sizing: border-box;
 }
 
-.jelly {
-    position: absolute;
-    right: 10px;
-    bottom: 15px;
-}
 
-.back {
-    top: 10px;
-    left: 10px;
-    position: absolute;
-}
 
 .stamp-controls {
     position: fixed;
@@ -149,16 +139,6 @@ h1 {
     height: 1em;
 }
 
-.jelly-pic {
-
-}
-
-.jooly {
-    display: block;
-    margin: auto;
-    height: 100%;
-}
-
 .smiley img {
     width: 40px;
 }
@@ -231,14 +211,4 @@ h1 {
         font-size: 0.9rem;
     }
 
-    .jelly {
-        right: 5%;
-        top: 20px;
-        text-align: center;
-    }
-
-    .jelly a {
-        display: inline-block;
-        padding: 0.35rem 0.55rem;
-    }
 }

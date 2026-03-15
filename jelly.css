@@ -1,0 +1,48 @@
+.jelly-pic {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.jelly {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.back {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.jooly {
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+
+@media (max-width: 700px) {
+    .jelly {
+        right: 5%;
+        top: 20px;
+        text-align: center;
+    }
+
+    .jelly a {
+        display: inline-block;
+        padding: 0.35rem 0.55rem;
+    }
+
+    .back {
+        bottom: 10px !important;
+        right: 0px;
+        position: absolute;
+        top: unset;
+    }
+
+    .jooly {
+        width: 100%;
+    }
+}
