@@ -175,6 +175,12 @@ h1 {
         font-size: clamp(3rem, 10vw, 3.2rem);
     }
 
+      .jelly {
+        right: 5%;
+        top: 20px;
+        text-align: center;
+    }
+
     .welcome {
         min-height: calc(100vh - 100px);
     }
