@@ -15,7 +15,7 @@
   </div>
   <div class="cursor-panel" aria-label="cursor picker">
     <button class="cursor-option is-active" type="button" data-shape="star"><img src="/images/star.svg" alt=""></button>
-    <button class="cursor-option" type="button" data-shape="heart">❤️</button>
+    <button class="cursor-option" type="button" data-shape="heart"><img src="/images/smiley.svg" alt=""></button>
     <button class="cursor-option" type="button" data-shape="flower">🌼</button>
   </div>
   <div class="stamp-controls" aria-label="stamp controls">
@@ -38,10 +38,11 @@
         cursor: "url(\"images/star.svg\") 10 30, auto"
       },
       heart: {
-        type: "emoji",
-        symbol: "❤️",
-        cursor: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext x='5' y='29' font-size='24'%3E%E2%9D%A4%EF%B8%8F%3C/text%3E%3C/svg%3E\") 8 30, auto"
-      },
+        type: "image",
+        src: "images/smiley.svg",
+        alt: "star",
+        cursor: "url(\"images/star.svg\") 10 30, auto"
+            },
       flower: {
         type: "emoji",
         symbol: "🌼",
